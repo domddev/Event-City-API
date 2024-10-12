@@ -1,1 +1,4 @@
-print("sended")
+local activated = true
+
+print("API Successfully connected.")
+print(activated)
