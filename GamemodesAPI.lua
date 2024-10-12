@@ -1,13 +1,5 @@
-local activated = true
+local gamemodeRERequest = game.ReplicatedStorage.GamemodeRE.sendRequestGamemode
 
-print("API Successfully connected.")
-print(activated)
-
-game.Players.PlayerAdded:Connect(function(plr)
-	if activated == true then
-		local clone = script.ScreenGui
-		clone.Parent = plr.PlayerGui
-	else
-		print("Is not Activated")
-	end
-end)
+gamemodeRERequest:FireAllClients("Explore", true)
+gamemodeRERequest:FireAllClients("FFA", false)
+gamemodeRERequest:FireAllClients("TheFinale", true)
