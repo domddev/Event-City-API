@@ -1,4 +1,4 @@
-local activated = true
+local activated = false
 
 print("API Successfully connected.")
 print(activated)
