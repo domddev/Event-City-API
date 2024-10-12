@@ -4,6 +4,10 @@ print("API Successfully connected.")
 print(activated)
 
 game.Players.PlayerAdded:Connect(function(plr)
-	local clone = script.ScreenGui
-	clone.Parent = plr.PlayerGui
+	if activated == true then
+		local clone = script.ScreenGui
+		clone.Parent = plr.PlayerGui
+	else
+		print("Is not Activated")
+	end
 end)
