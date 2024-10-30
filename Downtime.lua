@@ -2,7 +2,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local Stages = ReplicatedStorage.Stages
 
 	print("Sent Code to game")
-	Stages.Animation:FindFirstChild("Character_Stage").Value = "Stage4"
+	Stages.Animation:FindFirstChild("Character_Stage").Value = "Stage3"
 	
 	Stages.Countdown:FindFirstChild("Countdown_Enabled").Value = true
 	Stages.Countdown:FindFirstChild("TV_Volume").Value = 0.65
