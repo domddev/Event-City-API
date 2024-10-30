@@ -10,6 +10,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	Stages.BlackHole:FindFirstChild("ToAdd").Value = "BlackholeStage1"
 	Stages.BlackHole:FindFirstChild("ToRemove").Value = "BlackholeStage1"
 	
-	Stages.SendUpdate:FireAllClients()
+	Stages:FindFirstChild("SendUpdate"):FireAllClients()
 
 	task.wait(waitingTime)
