@@ -13,5 +13,3 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	Stages.Countdown:FindFirstChild("TV_Stage").Value = "Stage3"
 
 	Stages:FindFirstChild("SendUpdate"):FireAllClients()
-
-	task.wait(waitingTime)
