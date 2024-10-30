@@ -5,7 +5,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	Stages.Animation:FindFirstChild("Character_Stage").Value = "Stage3"
 	
 	Stages.Countdown:FindFirstChild("Countdown_Enabled").Value = false
-	Stages.Countdown:FindFirstChild("TV_Volume").Value = 0.35
+	Stages.Countdown:FindFirstChild("TV_Volume").Value = 0.65
 	
 	Stages.BlackHole:FindFirstChild("ToAdd").Value = "BlackholeStage2"
 	Stages.BlackHole:FindFirstChild("ToRemove").Value = "BlackholeStage2"
