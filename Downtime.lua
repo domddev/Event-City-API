@@ -6,10 +6,11 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
 	Stages.Countdown:FindFirstChild("Countdown_Enabled").Value = false
 	Stages.Countdown:FindFirstChild("TV_Volume").Value = 2
-	Stages.Countdown:FindFirstChild("Time").Value = 1731272400
 	Stages.Countdown:FindFirstChild("TV_Stage").Value = "Stage3"
-	
-	Stages.BlackHole:FindFirstChild("ToAdd").Value = "BlackholeStage4"
-	Stages.BlackHole:FindFirstChild("ToRemove").Value = "BlackholeStage2"
 
+	game.Workspace.NightNightBH:ClearAllChildren()
+	
+	local clone = game.ReplicatedStorage:FindFirstChild("BlackholeStage4"):Clone()
+	clone.Parent = game.Workspace.NightNightBH
+	
 	Stages:FindFirstChild("SendUpdate"):FireAllClients()
