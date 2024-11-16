@@ -12,5 +12,3 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
 	local clone = game.ReplicatedStorage:FindFirstChild("BlackholeStage4"):Clone()
 	clone.Parent = game.Workspace.NightNightBH
-	
-	Stages:FindFirstChild("SendUpdate"):FireAllClients()
