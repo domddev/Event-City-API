@@ -1,6 +1,6 @@
 {
   "Gamemodes": {
-    "Gamemode1": "Explore", "GAMEID", "Description",
-    "Gamemode2": "Event", "GAMEID", "Description"
+    "Gamemode1": "game",
+    "Gamemode2": "game"
   }
 }
