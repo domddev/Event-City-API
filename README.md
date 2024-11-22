@@ -1,3 +1,1 @@
-                                                                                                                            
-         ![ascii-text-art](https://github.com/user-attachments/assets/cf1f3feb-1a05-4750-9862-408eadaaaacb)
-                                                                                                                   
+![ascii-text-art](https://github.com/user-attachments/assets/9b979ba8-e931-4f41-9b85-07f831108f07)
